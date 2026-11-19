@@ -1,0 +1,167 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  
+}
+header {
+  background-color: rgb(4, 4, 75);
+  display: flex;
+  width: 100%;
+  height: 125px;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  justify-content: space-between;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo h1 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+header p {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+}
+.gold {
+  background-color: rgb(244, 244, 186);
+  display: grid;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 45%;
+}
+.photo {
+  border-right: 1px gray solid;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  gap: 20px;
+}
+.linfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 40px;
+}
+.mise {
+  display: flex;
+  border-top: 2px gray solid;
+  margin-top: 20px;
+  justify-content: center;
+  font-size: 40px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titr {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.calcul {
+  display: block;
+  background-color: rgb(217, 214, 214);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.opt {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#metal {
+  padding: 12px;
+  font-size: large;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+}
+#quantity {
+  border-radius: 8px;
+  padding: 5px;
+}
+#btn {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(4, 4, 75);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+#btn:hover{
+  background-color:rgb(75, 75, 189);
+}
+.history {
+  background-color: rgb(217, 214, 214);
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.titre {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer {
+  background-color: gray;
+  width: 100%;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+}
+#gold-price{
+  font-family: 'Courier New', Courier, monospace;
+}
+#gold-currency{
+  font-family: 'Courier New', Courier, monospace;
+}
+#gold-updated{
+  font-family: 'Courier New', Courier, monospace;
+}
+#silver-price{
+  font-family: 'Courier New', Courier, monospace;
+}
+#silver-currency{
+  font-family: 'Courier New', Courier, monospace;
+}
+#silver-updated{
+  font-family: 'Courier New', Courier, monospace;
+}
+.hausse {
+    color: green;
+}
+.baisse {
+    color: red;
+}
+.stable {
+    color: gray;
+}
+.currency-selector{
+  background-color: gray;
+  width: 14%;
+  padding: 1%;
+  border-radius: 7%;
+  margin-left: 4%;
+}
+label {
+font-size: large;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#currency{
+  padding: 2%;
+  border-radius: 10%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(4, 4, 75);
+  color: white;
+}

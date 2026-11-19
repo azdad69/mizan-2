@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIZAN</title>
+    <link rel="stylesheet" href="stylle.css" />
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="photos/balance.png" alt="balance" width="55" height="65" />
+        <h1>MIZAN</h1>
+      </div>
+      <p>Les prix des métaux précieux</p>
+    </header>
+    <div class="currency-selector">
+    <label for="currency">Choisir une devise :</label>
+    <select id="currency">
+        <option value="MAD">MAD</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+    </select>
+</div>
+    <section id="metals-container"></section>
+    <section class="calcul">
+      <div class="titr">
+        <img src="photos/calculator.png" alt="calcul" width="45" />
+        <h2>Calculateur de prix</h2>
+      </div>
+      <div class="opt">
+        <select id="metal">
+          <option value="gold">Or</option>
+          <option value="silver">Argent</option>
+        </select>
+        <input type="number" id="quantity" placeholder="Quantité (once)" />
+        <button id="btn">Calculer</button>
+      </div>
+    </section>
+    <section class="history">
+      <div class="titre">
+        <img src="photos/signal.png" alt="reseux" width="45" />
+        <h2>Historique des prix</h2>
+      </div>
+      <p>Aucune donnée disponible pour le moment.</p>
+    </section>
+    <footer>
+      <p class="pragraph">MIZAN._.Prix en temps reel</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIZAN - Back-office</title>
+    <link rel="stylesheet" href="stylle.css">
+    <script type="module" src="src/main-02.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>MIZAN - Back-office</h1>
+        <a class="page2" href="index.html">Accueil</a>
+    </header>
+<main>
+    
+    <section class="catalog">
+        <h2>Catalogue des articles</h2>
+        <input type="search" id="recherche-article" placeholder="Recherche un article...">
+        <select id="tri-articles">
+    <option value="">Ordre par défaut</option>
+    <option value="asc">Titre A-Z</option>
+    <option value="desc">Titre Z-A</option>
+    <option value="price-asc">Prix croissant</option>
+    <option value="price-desc">Ptix décroissante</option>
+    <option value="date-asc">Date croissant</option>
+    <option value="date-desc">Date décroissante</option>
+</select>
+<select id="filtre-statut">
+    <option value="">Tous les statauts</option>
+    <option value="Disponible">Disponible</option>
+    <option value="Réservé">Réservé</option>
+    <option value="Vendu">Vendu</option>
+</select>
+        <div id="articles-container"></div>
+    </section>
+</main>
+<footer>
+    <p class="pragraph">MIZAN._.Prix en temps reel</p>
+</footer>
+</body>
+</html>

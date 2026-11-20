@@ -1,6 +1,5 @@
 
 const url = "https://xaus.com/api/v1/spot";
-
 const container = document.querySelector("#metals-container");
 const selectDevise = document.querySelector("#currency");
 

@@ -1,11 +1,9 @@
-import { request } from "./service";
-console.log("main2 khdam ");
+import { request } from "./service.js";
 
 
 async function testerAPI(){
     try {
         const posts = await request("/posts")
-        console.log(posts)
     } catch (error) {
         console.log(error);
     }
